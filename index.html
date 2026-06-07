@@ -1,0 +1,249 @@
+<!DOCTYPE html><!-- git remote add origin https://github.com/iBeenBS/Ivan-Cruz-Desenvolvimento-Web.git -->
+<html>
+	<head>
+		<meta charset="UTF-8">	
+		
+		<!-- Linkar style file -->
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- font links -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+		
+		<!-- Biblioteca Animate On Scroll -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+		
+		<!-- Viewport for mobile -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Tags Básicas de pesquisa -->
+		<title>Ivan Cruz - Desenvolvimento Web</title>
+		<meta name="description" content="Desenvolvimento de sites modernos, responsivos e focados
+		em transformar visitantes em clientes.">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar" data-aos="fade" data-aos-duration="1200">
+				<ul>
+					<li>
+						<div class="home-nav nav-item active" onclick="goToSection('hero')" data-section="hero">
+							<i class="fa-solid fa-house"></i>
+							<span>Home</span>
+						</div>
+					</li>
+					<li>
+						<div class="service-nav nav-item" onclick="goToSection('services')" data-section="services">
+								<i class="fa-solid fa-code"></i>
+								<span>Serviços</span>
+						</div>
+					</li>
+					<li>
+						<div class="portfolio-nav nav-item" onclick="goToSection('portfolio')" data-section="portfolio">
+							<i class="fa-solid fa-book"></i>
+							<span>Portfólio</span>
+						</div>
+					</li>
+					<li>
+						<div class="process-nav nav-item" onclick="goToSection('process')" data-section="process">
+							<i class="fa-solid fa-question"></i>
+							<span>Processo</span>
+						</div>
+					</li>
+					<li>
+						<div class="feedback-nav nav-item" onclick="goToSection('testimonials')" data-section="testimonials">
+							<i class="fa-solid fa-bullhorn"></i>
+							<span>Feedbacks</span>
+						</div>
+					</li>
+					<li>
+						<div class="contact-nav nav-item" onclick="goToSection('contact')" data-section="contact">
+							<i class="fa-solid fa-phone"></i>
+							<span>Contato</span>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section id="hero">
+				<span class="hero-tag" data-aos="fade-right" data-aos-duration="300">DESENVOLVIMENTO WEB</span>
+				<h1 class="hero-title" data-aos="fade-up" data-aos-duration="500">Sites que transformam visitantes em
+				<span data-aos="fade-left" data-aos-duration="750">CLIENTES</span></h1>
+				<button class="hero-btn" data-aos="fade-up" data-aos-duration="950" onclick="soon()">FAZER ORÇAMENTO</button>
+				<button class="hero-project-btn" data-aos="fade-up" data-aos-duration="1250">VER PROJETOS</button>
+				<div class="hero-details" data-aos="fade" data-aos-duration="'10500" data-aos-offset="40">
+					<span>SUPORTE PÓS ENTREGA</span><span class="separator"> - </span>
+					<span>DESIGN MODERNO</span><span class="separator"> - </span>
+					<span>PREÇO ACESSÍVEL</span>
+				</div>
+				
+				<!-- Image Parallax -->
+				<img src="assets/ring.png" alt="" class="parallax ring hero-anim-img">
+			</section>
+			<section class="services" id="services">
+				<span class="service-tag" data-aos="fade-up" data-aos-duration="1000">MAIS QUE UM SITE</span>
+				<h1 class="service-title" data-aos="fade-up" data-aos-duration="850">Crio experiências 
+				digitais que ajudam sua marca a se
+				<span data-aos="fade-up" data-aos-duration="1500">DESTACAR</span></h1>
+				
+				<!-- Linha de separação de seção -->
+				<div class="divider" data-aos="fade-up" data-aos-duration="2300">
+					<div class="spear left"></div>
+					<div class="line"></div>
+					<div class="spear-right"></div>
+				</div>
+				
+				<!-- Cards Serviços -->
+				<div class="services-right">
+					<div class="service-card card-f" data-aos="fade-up" data-aos-delay="950">
+						<i class="fa-solid fa-bullseye"></i>
+						<h3>Mais credibilidade</h3>
+						<p>Um site profissional transmite confiança para seus clientes.</p>
+					</div> 
+					
+					
+					<!-- Card comentado por conta de bugs que ainda n sei como arrumar. . . -->
+					
+					<!--<div class="service-card" data-aos="fade-left" data-aos-duration="150">
+						<i class="fa-solid fa-rocket"></i>
+						<h3>Mais Visibilidade</h3>
+						<p>Sua marca disponível 24 horas por dia.</p>
+					</div>-->
+					
+					
+					<div class="service-card card-ed" data-aos="fade-up" data-aos-delay="800">
+						<i class="fa-solid fa-briefcase"></i>
+						<h3>Mais Oportunidades</h3>
+						<p>
+							Transforme visitantes em potenciais clientes.
+						</p>
+					</div>
+				</div>
+				<button class="services-btn">CONTATAR</button>
+			</section>
+			<section class="portfolio" id="portfolio">
+				<div class="portfolio-content">
+					<!-- Titulo da Seção -->
+					<p class="portfolio-tag">
+						MEUS PROJETOS
+					</p>
+					
+					<!-- Subtitulo da seção -->
+					<p class="portfolio-subtitle" data-aos="fade-up" data-aos-duration="700">Conheça alguns 
+					<br>dos trabalhos que <span>desenvolvi.</span></p>
+					
+					<!-- Botão para encaminhar para portfolio principal -->
+					<a href="https://ivancruzz.vercel.app" target="_blank" class="portfolio-link" 
+					data-aos="fade-right" data-aos-duration="950">
+						PORTFÓLIO COMPLETO
+						<i class="fa-solid fa-arrow-up-right-from-square"></i>
+					</a>
+					
+					<!-- Cards dos Projetos  -->
+					<div class="projects-container">
+						<div class="project-card" data-aos="fade-up" data-aos-duration="1150">
+							<img src="assets/portfolio.png" alt="Projeto 1" class="project-image">
+							<div class="project-body">
+								<h3>Portfólio Completo</h3>
+								<p class="tech-stack">
+									HTML • CSS • JS
+								</p>
+								<p>Uma página para falar sobre mim e mostrar meus projetos.</p>
+								<a href="https://ivancruzz.vercel.app" target="_blank">VER PROJETO <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+							</div>
+						</div>
+						<div class="project-card" data-aos="fade-up" data-aos-duration="1350">
+							<img src="assets/barbearia-willians.png" alt="Projeto 2" class="project-image">
+							<div class="project-body">
+								<h3>MVP com Supabase</h3>
+								<p class="tech-stack">
+									HTML • CSS • JS • SUPABASE
+								</p>
+								<p>Primeiro MVP utilizando banco de dados e JS.</p>
+								<a href="https://barbearia-willians.vercel.app" target="_blank">
+									VER PROJETO
+									<i class="fa-solid fa-arrow-up-right-from-square"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				<div>
+			</section>
+			<section class="process" id="process">
+				<!-- Imagem principal da seção -->
+				<img src="assets/interrogacao.png" class="question-mark hero-anim">
+				
+				<!-- Timeline do Processo -->
+				<div class="timeline">
+					<div class="step" data-aos="fade-up" data-aos-delay="350">
+						<div class="dot"></div>
+						<div class="step-content">
+							<h3>Planejamento</h3>
+							<p>
+								Conversamos sobre seus objetivos, referências e necessidades.
+							</p>
+							
+						</div>
+					</div>
+					<div class="step" data-aos="fade-up" data-aos-delay="450">
+						<div class="dot"></div>
+						<div class="step-content">
+							<h3>Design</h3>
+							<p>
+								Definimos a estrutura e o estilo visual do projeto.
+							</p>
+						</div>
+					</div>
+					<div class="step" data-aos="fade-up" data-aos-delay="550">
+						<div class="dot"></div>
+						<div class="step-content">
+							<h3>Aprovação</h3>
+							<p>
+								Realizamos ajustes antes da entrega.
+							</p>
+						</div>
+					</div>
+					<div class="step" data-aos="fade-up" data-aos-delay="650">
+						<div class="dot"></div>
+						<div class="step-content">
+							<h3>Entrega</h3>
+							<p>
+								Pagamento dividido entre início e conclusão do projeto.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Card lado direito -->
+				<div class="cta-card" data-aos="fade-up" data-aos-delay="1100">
+					<span class="cta-tag">VAMOS CONVERSAR</span>
+					<h3>Pronto para começar?</h3>
+					<p>Me conte sua ideia e vamos transformar
+					ela em um projeto profissional.</p>
+					<a href="#contact" class="cta-btn">Entrar em contato <i 
+					class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</section>
+			<section class="testimonials" id="testimonials">
+				<!-- Depoimentos -->
+			</section>
+			<section class="contact" id="contact">
+				<!-- Contato -->
+				<!-- Fomulário -->
+			</section>
+		</main>
+		
+		<footer>
+			<!-- Redes Sociais -->
+			<!-- Direitos (Desejo LGPD)-->
+		</footer>
+	
+		<!-- Linkar script -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src="scripts/script.js"></script>
+		<script src="https://kit.fontawesome.com/ab2b0f0226.js" crossorigin="anonymous"></script>
+		
+	</body>
+</html>
