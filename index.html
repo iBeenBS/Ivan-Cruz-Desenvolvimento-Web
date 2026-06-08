@@ -1,4 +1,4 @@
-<!DOCTYPE html><!-- git remote add origin https://github.com/iBeenBS/Ivan-Cruz-Desenvolvimento-Web.git -->
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">	
@@ -54,7 +54,7 @@
 					<li>
 						<div class="feedback-nav nav-item" onclick="goToSection('testimonials')" data-section="testimonials">
 							<i class="fa-solid fa-bullhorn"></i>
-							<span>Feedbacks</span>
+							<span>Diferenciais</span>
 						</div>
 					</li>
 					<li>
@@ -68,19 +68,45 @@
 		</header>
 		<main>
 			<section id="hero">
-				<span class="hero-tag" data-aos="fade-right" data-aos-duration="300">DESENVOLVIMENTO WEB</span>
-				<h1 class="hero-title" data-aos="fade-up" data-aos-duration="500">Sites que transformam visitantes em
-				<span data-aos="fade-left" data-aos-duration="750">CLIENTES</span></h1>
-				<button class="hero-btn" data-aos="fade-up" data-aos-duration="950" onclick="soon()">FAZER ORÇAMENTO</button>
-				<button class="hero-project-btn" data-aos="fade-up" data-aos-duration="1250">VER PROJETOS</button>
-				<div class="hero-details" data-aos="fade" data-aos-duration="'10500" data-aos-offset="40">
-					<span>SUPORTE PÓS ENTREGA</span><span class="separator"> - </span>
-					<span>DESIGN MODERNO</span><span class="separator"> - </span>
-					<span>PREÇO ACESSÍVEL</span>
+			
+			<!-- Header da seção -->
+				<span class="hero-tag" data-aos="fade-right" data-aos-delay="350">DESENVOLVIMENTO WEB</span>
+				<h1 class="hero-title" data-aos="fade-up" data-aos-delay="450">Sites que transformam visitantes em
+				<span data-aos="fade-left" data-aos-delay="750">CLIENTES</span></h1>
+				
+				<!-- Botões da hero -->
+				<div data-aos="fade-up" data-aos-delay="500">
+					<button class="hero-btn" onclick="soon()">
+						FAZER ORÇAMENTO
+					</button>
+				</div>
+				<div class="fix-btn-hero" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+					<button class="hero-project-btn">
+						VER PROJETOS
+					</button>
+				</div>
+				
+				<!-- Detalhes hero -->
+				<div class="hero-details">
+					<span data-aos="fade-up" data-aos-delay="300" data-aos-offset="40">
+						SUPORTE PÓS ENTREGA
+					</span>
+					<span class="separator">
+						- 
+					</span>
+					<span data-aos="fade-up" data-aos-delay="500" data-aos-offset="40">
+						DESIGN MODERNO
+					</span>
+					<span class="separator">
+						- 
+					</span>
+					<span data-aos="fade-up" data-aos-delay="700" data-aos-offset="40">
+						PREÇO ACESSÍVEL
+					</span>
 				</div>
 				
 				<!-- Image Parallax -->
-				<img src="assets/ring.png" alt="" class="parallax ring hero-anim-img">
+					<img src="assets/ring.png" alt="" class="parallax ring hero-anim-img">
 			</section>
 			<section class="services" id="services">
 				<span class="service-tag" data-aos="fade-up" data-aos-duration="1000">MAIS QUE UM SITE</span>
@@ -97,7 +123,7 @@
 				
 				<!-- Cards Serviços -->
 				<div class="services-right">
-					<div class="service-card card-f" data-aos="fade-up" data-aos-delay="950">
+					<div class="service-card card-f" data-aos="fade-up" data-aos-delay="850">
 						<i class="fa-solid fa-bullseye"></i>
 						<h3>Mais credibilidade</h3>
 						<p>Um site profissional transmite confiança para seus clientes.</p>
@@ -143,7 +169,7 @@
 					
 					<!-- Cards dos Projetos  -->
 					<div class="projects-container">
-						<div class="project-card" data-aos="fade-up" data-aos-duration="1150">
+						<div class="project-card" data-aos="fade-up" data-aos-delay="750">
 							<img src="assets/portfolio.png" alt="Projeto 1" class="project-image">
 							<div class="project-body">
 								<h3>Portfólio Completo</h3>
@@ -154,7 +180,7 @@
 								<a href="https://ivancruzz.vercel.app" target="_blank">VER PROJETO <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
 							</div>
 						</div>
-						<div class="project-card" data-aos="fade-up" data-aos-duration="1350">
+						<div class="project-card" data-aos="fade-up" data-aos-delay="500">
 							<img src="assets/barbearia-willians.png" alt="Projeto 2" class="project-image">
 							<div class="project-body">
 								<h3>MVP com Supabase</h3>
@@ -172,6 +198,7 @@
 				<div>
 			</section>
 			<section class="process" id="process">
+			
 				<!-- Imagem principal da seção -->
 				<img src="assets/interrogacao.png" class="question-mark hero-anim">
 				
@@ -227,11 +254,89 @@
 				</div>
 			</section>
 			<section class="testimonials" id="testimonials">
-				<!-- Depoimentos -->
+				<div class="feedback-header">
+					<span class="section-tag" data-aos="fade-up" data-aos-delay="320">DIFERENCIAIS</span>
+					<h2 class="feedback-title" data-aos="fade-up" data-aos-delay="350">Por que trabalhar comigo</h2>
+					<p class="feedback-subtitle" data-aos="fade-up" data-aos-delay="450">Mais do que entregar um site,
+					meu objetivo é garantir uma experiência clara, transparente
+					e profissional durante todo o projeto.</p>
+				</div>
+				<div class="feedback-grid" data-aos="fade-up" data-aos-delay="500">
+					<div>
+						<div class="feedback-card">
+							<i class="fa-solid fa-comments"></i>
+							<h3>Comunicação Clara</h3>
+							<p>
+								Você sempre saberá em qual etapa o projeto está.
+							</p>
+						</div>
+					</div>
+					<div class="feedback-card" data-aos="fade-up" data-aos-delay="600">
+						<div>
+							<i class="fa-solid fa-rotate"></i>
+							<h3>Atualizações Durante o Projeto</h3>
+							<p>
+								Envio prints e Atualizações para acompanhar o desenvolvimento.
+							</p>
+						</div>
+					</div>
+					<div class="feedback-card" data-aos="fade-up" data-aos-delay="700">
+						<div>
+							<i class="fa-solid fa-handshake"></i>
+							<h3>Suporte Pós-Entrega</h3>
+							<p>
+								Auxílio mesmo após a conclusão do projeto.
+							</p>
+						</div>
+					</div>
+				</div>
 			</section>
 			<section class="contact" id="contact">
-				<!-- Contato -->
-				<!-- Fomulário -->
+				<div class="contact-header">
+					<!--Tag da seção -->
+					<div class="contato-tag" data-aos="fade-up" data-aos-delay="300">
+						<span>CONTATO</span>
+					</div>
+					
+					<!-- Titulo da seção -->
+					<h3 class="contact-title" data-aos="fade-up" data-aos-delay="320">
+						Vamos Conversar?
+					</h3>
+					<!-- Subtitulo da seção -->
+					<span class="contact-subtitle">
+						Estou disponível para tirar dúvidas, discutir ideias e<br>transformar seu 
+						projeto em uma experiência digital profissional.
+					</span>
+				</div>
+				<div class="contact-links">
+					<div data-aos="fade-up" data-aos-delay="450">
+						<a href="#" class="contact-card">
+							<i class="fa-brands fa-whatsapp"></i>
+							<div>
+								<h3>WhatsApp</h3>
+								<p>Resposta Rápida</p>
+							</div>
+						</a>
+					</div>
+					<div data-aos="fade-up" data-aos-delay="500">
+						<a href="#" class="contact-card">
+							<i class="fa-solid fa-envelope"></i>
+							<div>
+								<h3>E-mail</h3>
+								<p>Para propostas e dúvidas</p>
+							</div>
+						</a>
+					</div>
+					<div data-aos="fade-up" data-aos-delay="550">
+						<a href="#" class="contact-card">
+							<i class="fa-brands fa-github"></i>
+							<div>
+								<h3>GitHub</h3>
+								<p>Veja meus projetos</p>
+							</div>
+						</a>
+					</div>
+				</div>
 			</section>
 		</main>
 		
