@@ -28,7 +28,7 @@ A página foi construida com foco em:
 • AOS; <br>
 • Font Awesome.
 
-## Seções do Site;
+## 📁 Seções do Site;
 
 • Home; <br>
 • Serviços;<br>
