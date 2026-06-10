@@ -6,3 +6,7 @@ destacando projetos, processos de trabalho e formas<br>
 de contato de maneira moderna e profissional.
 
 ## ✨ Sobre o Projeto
+
+O objetivo deste projeto é demonstrar minhas habilidades<br>
+em desenvolvimento web e servir como uma vitrine digital<br>
+para potenciais clientes.
