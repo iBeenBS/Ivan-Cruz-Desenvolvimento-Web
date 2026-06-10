@@ -13,9 +13,9 @@ para potenciais clientes.
 
 A página foi construida com foco em:
 
-•
-•
-•
-•
-•
-•
+• Design moderno e elegante;<br>
+• Experiência do usuário;<br>
+• Animações suaves;<br>
+• Navegação intuitiva;<br>
+• Responsividade;<br>
+• Apresentação profissional dos serviços.
