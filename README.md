@@ -42,3 +42,12 @@ A página foi construida com foco em:
 Apresentar meu serviço de desenvolvimento web e demonstrar<br>
 minha capacidade de criar interfaces modernas, funcionais e <br>
 visualmente atraentes.
+
+## 🌐 Acesse o Projeto
+<a href="">Visualizar projeto</a>
+
+## 📭 Contato
+
+Caso tenha interesse em desenvolver um projeto ou<br>
+queira trocar uma ideia, entre em contato:
+
