@@ -19,3 +19,11 @@ A página foi construida com foco em:
 • Navegação intuitiva;<br>
 • Responsividade;<br>
 • Apresentação profissional dos serviços.
+
+## ⚡ Tecnologias utilizadas
+
+• HTML5; <br>
+• CSS3; <br>
+• JavaScript; <br>
+• AOS; <br>
+• Font Awesome.
