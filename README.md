@@ -38,3 +38,5 @@ A página foi construida com foco em:
 • Contato.
 
 ## 🎯 Objetivo
+
+Demonstrar minhas habilidades no desenvolvimento web<br> de forma profissional
