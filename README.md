@@ -39,4 +39,6 @@ A página foi construida com foco em:
 
 ## 🎯 Objetivo
 
-Demonstrar minhas habilidades no desenvolvimento web<br> de forma profissional
+Apresentar meu serviço de desenvolvimento web e demonstrar<br>
+minha capacidade de criar interfaces modernas, funcionais e <br>
+visualmente atraentes.
