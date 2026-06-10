@@ -10,3 +10,12 @@ de contato de maneira moderna e profissional.
 O objetivo deste projeto é demonstrar minhas habilidades<br>
 em desenvolvimento web e servir como uma vitrine digital<br>
 para potenciais clientes.
+
+A página foi construida com foco em:
+
+•
+•
+•
+•
+•
+•
