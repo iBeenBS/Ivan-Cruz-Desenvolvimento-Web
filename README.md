@@ -27,3 +27,12 @@ A página foi construida com foco em:
 • JavaScript; <br>
 • AOS; <br>
 • Font Awesome.
+
+## Seções do Site;
+
+• Home; <br>
+• Serviços;<br>
+• Portfólio;<br>
+• Processo;<br>
+• Diferenciais;<br>
+• Contato.
